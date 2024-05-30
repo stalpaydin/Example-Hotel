@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf*8">
+<title>ÖRNEK WEB</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<meta name="description" content="ÖRNEK WEB">
+<meta name="keywords" content="ÖRNEK, WEB">
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    #sayfa{
+
+
+        border-width: 1px;
+        margin: auto;
+    }
+    /* BANNER */
+    #banner{
+
+     
+        border-width: 1px;
+       
+        margin: auto;    
+    }
+    #jumbotron{
+        height: 80px;
+        background-color: rgb(41, 41, 160)
+    }
+
+   #bannerlogo{
+        float: left;
+        right: 15px;
+        position: relative;
+      top: -100px;
+       width: 90px;
+       height: 70px;
+   }
+   #katalog{
+    float: left;
+    position: relative;
+    top: -65px;
+   }
+   #button{
+    background-color:rgb(41, 41, 160)
+   }
+   #jumbotronbaslk{
+    color: white;
+    position: relative;
+    top: -15px;
+   }
+  #paragraf1{
+    float: right;
+    position: relative;
+    left: 25px;
+  }
+  #birinci{
+    position: relative;
+    left: 25px;
+  }
+  #etiket{
+    float: right;
+    position: relative;
+    top: -50px;
+    color: white;
+  }
+  #etiket2{
+    float: right;
+    position: relative;
+    right: 105px;
+    top: -44px;
+    color: white;
+  }
+</style>
+ 
+</head>
+<body>
+ <div id="sayfa">
+            <header id="banner">
+                    <div id="jumbotron" class="jumbotron text-center">
+                        <h1 id="jumbotronbaslk">EXAMPLE HOTEL</h1>
+                        <svg id="etiket2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                            <path  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                          </svg>
+                        <p id="etiket">@stalpaydin</p>
+                  <div id="logo">
+                        <a href="index.html"><img id="bannerlogo" src="resimler/logo.png"alt="ÖRNEK WEB"></a>
+                    <div class="dropdown" id="katalog">
+                        <button id="button" type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">MENU</button>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-header">
+                                <a class="dropdown-item" href="index.html">Home Page</a>
+                                <a class="dropdown-item" href="hakkimizda.html">About us</a>
+                                <a class="dropdown-item" href="iletisim.html">Communication</a>
+                            </div>
+                        </div>
+                </div>
+                    </div>
+                    
+            </header>
+          <div class="container">
+                <div class="row">
+                    <div class="row">
+                        <img id="birinci" src="resimler/baslik1.jpg" alt="pictures1" width="390" height="250">
+                     <div id="paragraf1" class="col">
+                        <h1>Make Your Summer Dreams Come True!</h1>
+                        <p>An ideal place for you to enjoy the hot summer days,[EXAMPLE HOTEL] offers an experience that will make your holiday unforgettable. Located by the sea, our hotel welcomes you with its clear blue waters and golden beaches. While waking up to a magnificent view every morning, you can spend a pleasant time swimming in its cool waters or sunbathing on the beach during the day.
+                            <br>
+                            Ready to embrace you with the hot winds of summer and the azure sea! Our hotel, which attracts attention with its unique location, will welcome you with its dazzling beaches and impressive views. Every morning, as the sweet light of the sun shines through the windows of our rooms, you will feel the excitement of stepping into a new adventure.
+                        </p>
+                     </div>
+                   </div>
+               </div>
+               </div>
+               <br>
+               <div class="container">
+                <div class="row"> 
+                    <div class="col">
+                        <h1 >The Meeting Point of Luxury and Elegance</h1>
+                        <p>it is the perfect meeting point of luxury and elegance. Our hotel, every detail of which has been carefully designed, is full of unique services and amenities to provide an unforgettable experience to its guests.
+                            <br> Our guests can enjoy the sunset on the balconies with unique views or have a comfortable relaxation experience in the luxurious bedrooms.</p>
+                     </div>
+                    <div class="row">
+                        <img id="resim1" src="resimler/baslik2.jpg" alt="pictures1" height="250">
+                    
+                   </div>
+               </div>
+               </div>
+
+                <footer>
+
+                </footer>
+ </div>
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
